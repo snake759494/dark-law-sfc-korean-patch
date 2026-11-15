@@ -1,0 +1,19 @@
+{
+  "version": "v1.0.0",
+  "date": "2026-11-16",
+  "repository": "https://github.com/snake759494/dark-law-sfc-korean-patch",
+  "files": {
+    "source": {"file": "Dark Law - Meaning of Death (Japan).sfc", "size": 4194304, "sha256": "6c1749b24124f74d3aceefa24297b836b6ee7598fc2094f4d065b3c762c898a4"},
+    "output": {"file": "Dark Law - Meaning of Death (Korean).sfc", "size": 4194304, "sha256": "6cf6c38dbd2e651b56d0f0ed500c15d5cf73f443df68f3ea0f29ec09ec892b62"},
+    "patch": {"file": "Dark_Law_SFC_KR.xdelta", "size": 260986, "sha256": "bf9cf57a6d0b3bdeb32738dd1f01490cc38b9f55d2d2414f89adfa89278dfd39"}
+  },
+  "fonts": {
+    "Galmuri7.ttf": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+    "Galmuri14.ttf": "6fe6c3fe4369e3837ac348431e8670733d67aa4bd550982baa72cc93c81a1c68",
+    "SeoulHangangM.ttf": "d27e1b26b55e507bec1045962c954cf426d79605009c720fad1c9ef808e312cb"
+  },
+  "xdelta_options": ["-e", "-0", "-S", "none", "-f"],
+  "release_assets": ["Dark_Law_SFC_KR.xdelta"],
+  "full_playthrough_verified": false,
+  "hardware_verified": false
+}
