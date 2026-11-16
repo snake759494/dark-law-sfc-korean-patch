@@ -1,11 +1,11 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "date": "2026-11-16",
   "repository": "https://github.com/snake759494/dark-law-sfc-korean-patch",
   "files": {
     "source": {"file": "Dark Law - Meaning of Death (Japan).sfc", "size": 4194304, "sha256": "6c1749b24124f74d3aceefa24297b836b6ee7598fc2094f4d065b3c762c898a4"},
-    "output": {"file": "Dark Law - Meaning of Death (Korean).sfc", "size": 4194304, "sha256": "6cf6c38dbd2e651b56d0f0ed500c15d5cf73f443df68f3ea0f29ec09ec892b62"},
-    "patch": {"file": "Dark_Law_SFC_KR.xdelta", "size": 260986, "sha256": "bf9cf57a6d0b3bdeb32738dd1f01490cc38b9f55d2d2414f89adfa89278dfd39"}
+    "output": {"file": "Dark Law - Meaning of Death (Korean).sfc", "size": 4194304, "sha256": "e46f0465e08067ac1683e3cff81a1d4a6e91bb91c36546ada70f0ba8955777e5"},
+    "patch": {"file": "Dark_Law_SFC_KR.xdelta", "size": 265219, "sha256": "0a99356840b6112cbefc72a6cd5b6363d71942b4d6e11fdf2a002d17a88a23ae"}
   },
   "fonts": {
     "Galmuri7.ttf": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",

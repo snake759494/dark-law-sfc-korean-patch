@@ -137,6 +137,10 @@ for k,(e,t) in sorted(script.items()):
     a=alloc(len(b)); rom[a:a+len(b)]=b
     rom[k:k+4]=jmp(a)
 print('script pool used up to',hex(cur),'pool idx',pi)
+# ---------- scenario-local item names (in place, space padded)
+for a,n,t in ((0x2c1e06,6,'열쇠'),(0x2d2851,6,'사다리')):
+    b=enc(t); assert len(b)<=n,(t,len(b))
+    rom[a:a+n]=b+bytes(n-len(b))
 # ---------- menus
 for p in MP:
     if p.get('skip'): continue

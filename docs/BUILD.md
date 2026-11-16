@@ -15,7 +15,7 @@ xdelta3 -e -0 -S none -f -s 'work/Dark Law - Meaning of Death (Japan).sfc' 'work
 
 ## 번역 파일 형식
 
-- `translation/ko_00.txt`~`ko_09.txt`: 대사. `### 0x주소`(원본 문자열 시작) 다음 `KO:` 줄이 한국어입니다. `|`는 줄바꿈, `{FExx}`·`{C7}` 등은 원본 제어 코드입니다.
+- `translation/ko_00.txt`~`ko_10.txt`: 대사. `### 0x주소`(원본 문자열 시작) 다음 `KO:` 줄이 한국어입니다. `|`는 줄바꿈, `{FExx}`·`{C7}` 등은 원본 제어 코드입니다.
 - `translation/hint_ko.txt`: 술집 힌트. 형식은 대사와 같습니다(주소는 뱅크 안 오프셋).
 - `translation/name_ko.txt`·`idesc_ko.txt`·`edesc_ko.txt`·`help_ko.txt`: `주소(16진)<TAB>한국어` 형식의 시나리오 제목, 아이템 설명, 장비 설명, 메뉴 도움말.
 - `translation/menu_ko.tsv`: 아이템·마법·직업·몬스터 이름과 메뉴 문자열. 키는 원문의 SHA-1 앞 16자리입니다.
